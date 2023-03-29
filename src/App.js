@@ -67,6 +67,15 @@ function App() {
                 {Table}
             </header>
 
+<main className="Main">
+
+
+
+
+
+
+
+
             <table className="TableMain">
                 <thead className="Thead1">
                     <tr>
@@ -101,7 +110,7 @@ function App() {
                 </tbody>
            
             </table>
-
+</main>
 
 
         </>

@@ -42,6 +42,12 @@
   }
 }
 
+
+
+.Main{
+  margin-left: 2%;
+}
+
 .CSV{
   background: #282c34;
   margin: 0;
@@ -141,3 +147,20 @@ input{
 
 /* MEDIA RESPONSIVE */
 
+@media(max-width:500px)
+{
+  .finish{
+    display: block;
+   width: 35%;
+   margin-left: 30%;
+  }.Main{
+    overflow: scroll;
+    /* margin-left: 5%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background: #000; */
+    /* margin-left: 50%; */
+    padding: 0;
+  }
+  
+}
